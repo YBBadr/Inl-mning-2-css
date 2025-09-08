@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nyheter.NU - Startsida</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>
+          <a href="/" aria-label="Tidningsnamn startsida">Nyheter.NU</a>
+        </h1>
+
+        <nav aria-label="Huvudnavigation">
+          <ul>
+            <li><a href="/" aria-current="page">Hem</a></li>
+            <li>
+              <a href="/senaste.html" target="_blank" rel="noopener noreferrer"
+                >Senaste nytt</a
+              >
+            </li>
+            <li>
+              <a href="/blaljus.html" target="_blank" rel="noopener noreferrer"
+                >Blåljus</a
+              >
+            </li>
+            <li>
+              <a href="/sport.html" target="_blank" rel="noopener noreferrer"
+                >Sport</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <form role="search" aria-label="Sök">
+          <label>
+            Sök
+            <input name="q" type="search" placeholder="Sök artiklar…" />
+          </label>
+          <button type="submit">Sök</button>
+        </form>
+
+        <nav aria-label="Kategorier">
+          <ul>
+            <li>
+              <a href="/inrikes.html" target="_blank" rel="noopener noreferrer"
+                >Inrikes</a
+              >
+            </li>
+            <li>
+              <a href="/utrikes.html" target="_blank" rel="noopener noreferrer"
+                >Utrikes</a
+              >
+            </li>
+            <li>
+              <a href="/varlden.html" target="_blank" rel="noopener noreferrer"
+                >Världen</a
+              >
+            </li>
+            <li>
+              <a href="/politik.html" target="_blank" rel="noopener noreferrer"
+                >Politik</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section aria-label="Huvudartikel">
+        <h2>Krock på E4: båda vägar avstängda</h2>
+        <p>
+          Räddningstjänst och polis är på plats efter en flerbilskollision på
+          E4. Trafiken leds om och köer har bildats.
+        </p>
+      </section>
+
+      <div>
+        <section aria-label="Senaste artiklar">
+          <article>
+            <header>
+              <h2>Alexander Isak klar för Liverpool</h2>
+              <p>
+                Stor överraskning i Premier League - efter långdragna
+                förhandlingar är anfallsstjärnan klar för Liverpool.
+              </p>
+            </header>
+            <figure>
+              <img
+                src="https://via.placeholder.com/640x360"
+                width="640"
+                height="360"
+                loading="lazy"
+                alt="Alexander Isak poserar i en röd matchtröja på en fotbollsarena"
+              />
+              <figcaption>Pressbild från klubbens presentation.</figcaption>
+            </figure>
+            <p>Här ser vi Alexander Isak med sin nya Liverpool-tröja.</p>
+            <p>
+              <a
+                href="/sport/isak-liverpool.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Läs mer</a
+              >
+            </p>
+          </article>
+
+          <article>
+            <header>
+              <h2>Trumps tariffer mot Kina höjs ytterligare</h2>
+              <p>
+                USA meddelar en ny runda handelstullar - nivåerna höjs till 200
+                procent på utvalda varor.
+              </p>
+            </header>
+            <figure>
+              <img
+                src="https://via.placeholder.com/640x360"
+                width="640"
+                height="360"
+                loading="lazy"
+                alt="Lastcontainrar staplade i en hamn med kranar i bakgrunden"
+              />
+              <figcaption>
+                Höjda tariffer påverkar globala leveranskedjor.
+              </figcaption>
+            </figure>
+            <p>
+              <a
+                href="/ekonomi/tullar-kina.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Läs mer</a
+              >
+            </p>
+          </article>
+        </section>
+
+        <aside aria-label="Tipsa redaktionen">
+          <section>
+            <h3>Tipsa redaktionen</h3>
+            <form action="#" method="post">
+              <label>
+                Ditt namn
+                <input name="namn" autocomplete="name" />
+              </label>
+
+              <label>
+                Din e-post
+                <input name="mail" type="email" autocomplete="email" required />
+              </label>
+
+              <label>
+                Din telefon
+                <input
+                  name="tel"
+                  type="tel"
+                  autocomplete="tel"
+                  placeholder="+46 70 123 45 67"
+                />
+              </label>
+
+              <label>
+                Välj ämne
+                <select name="amne">
+                  <option>Nyhetstips</option>
+                  <option>Blåljus</option>
+                  <option>Sport</option>
+                  <option>Politik</option>
+                </select>
+              </label>
+
+              <label>
+                Meddelande
+                <textarea
+                  name="msg"
+                  rows="6"
+                  placeholder="Berätta vad som hänt…"
+                ></textarea>
+              </label>
+
+              <label>
+                GDPR och villkor
+                <select name="gdpr">
+                  <option selected>Välj ett alternativ</option>
+                  <option>Jag godkänner villkoren</option>
+                </select>
+              </label>
+
+              <button type="submit">Skicka</button>
+            </form>
+          </section>
+
+          <section>
+            <h3>Nyhetsbrev</h3>
+            <p>Få helgens viktigaste nyheter direkt i inkorgen.</p>
+            <form action="#" method="post">
+              <label>
+                E-post
+                <input type="email" placeholder="din@mail.se" />
+              </label>
+              <button type="submit">Prenumerera</button>
+            </form>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <section>
+        <h4>Nyheter.NU</h4>
+        <p>Örebro</p>
+        <p>Telefon: <a href="tel:+46701234567">+46 70 123 45 67</a></p>
+        <p>E-post: <a href="mailto:info@nyheter.nu">info@nyheter.nu</a></p>
+        <p>
+          Följ oss:
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >,
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>

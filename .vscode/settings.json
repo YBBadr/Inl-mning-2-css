@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nyheter om katter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Nyheter om katter</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Hem</a></li>
+        <li><a href="/katt">Katter</a></li>
+        <li><a href="/kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-label="Huvudartikel">
+      <h2>Katt misstänkt för godisstöld</h2>
+      <p>
+        Efter mystiskt försvinnande av godisbitar i köket pekar alla tassar mot
+        husets busigaste katt. Utredningen pågår – spår av kattmynta har hittats.
+      </p>
+      <figure>
+        <img src="bilder/katt-godis.jpg" width="1280" height="853" loading="lazy" alt="Katt med oskyldig blick intill en öppen godispåse på köksbänken">
+        <figcaption>Bevismaterial: prasslig påse + smulor på nosen.</figcaption>
+      </figure>
+    </section>
+
+    <section aria-label="Senaste artiklar">
+      <article>
+        <header>
+          <h2>Katt får extra mycket kärlek för öm tass</h2>
+          <p>
+            Familjens katt haltar lätt efter att ha landat tokigt från soffan. Nu vankas extra gos, filt och vila.
+          </p>
+        </header>
+        <figure>
+          <img src="bilder/katt-tass.jpg" width="1200" height="800" loading="lazy" alt="Katt sitter inlindad i filt och lyfter försiktigt en tass">
+          <figcaption>Veterinär kontaktad – tills vidare myskur pågår.</figcaption>
+        </figure>
+        <p>
+          Favoritfilten är på plats och matskålen har fått extra godbitar. Återhämtning i lugn och ro.
+        </p>
+        <p><a href="/katt/tass-omsorg.html" target="_blank" rel="noopener noreferrer">Läs mer</a></p>
+      </article>
+
+      <article>
+        <header>
+          <h2>Katt avslöjad vid midnatt – tog hela soffan</h2>
+          <p>
+            En nattkamera fångade sanningen: soffan ockuperades helt av familjens pälsboll medan alla sov.
+          </p>
+        </header>
+        <figure>
+          <img src="bilder/katt-soffa.jpg" width="1200" height="800" loading="lazy" alt="Katt som breder ut sig över en hel soffa på natten">
+          <figcaption>Nattlig katt-yoga i fyra positioner.</figcaption>
+        </figure>
+        <p><a href="/katt/soffspaning.html" target="_blank" rel="noopener noreferrer">Läs mer</a></p>
+      </article>
+
+      <article>
+        <header>
+          <h2>Katt hittad i garderoben – sov på högen med tröjor</h2>
+          <p>
+            Efter lång letning hittades äventyraren bekvämt parkerad bland mjuka
+            tröjor. Spinn-ljud hördes på flera meters håll.
+          </p>
+        </header>
+        <figure>
+          <img src="bilder/katt-garderob.jpg" width="1200" height="800" loading="lazy" alt="Katt ihopkrupen och sovande på en hög tröjor i en garderob">
+          <figcaption>Ny favoritplats: högst upp, längst in.</figcaption>
+        </figure>
+        <p>
+          Tips: stäng garderobsdörren – annars väljer katten själv sin lyxsäng.
+        </p>
+        <p><a href="/katt/garderobsnapp.html" target="_blank" rel="noopener noreferrer">Läs mer</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Kattnyheter</p>
+  </footer>
+</body>
+</html>

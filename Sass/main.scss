@@ -10,7 +10,7 @@ body {
 
 section[aria-label="Senaste artiklar"] {
   display: grid;
-  grid-template-columns: 1fr; /* mobil: en kolumn */
+  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
@@ -46,10 +46,9 @@ section[aria-label="Huvudartikel"] {
 section[aria-label="Huvudartikel"] figure {
   margin: 0;
 }
-section[aria-label="Senaste artiklar"] figure img {
+section[aria-label="Huvudartikel"] figure img {
   display: block;
-  width: 30%;
-  max-width: 100%;
+  width: 20%;
   height: 280px;
   object-fit: cover;
   border-radius: 8px;
@@ -69,15 +68,78 @@ aside[aria-label="Tipsa redaktionen"] section {
 
 @media (min-width: 700px) {
   section[aria-label="Senaste artiklar"] {
+    grid-template-columns: 1fr 1fr;
     gap: 1.75rem;
   }
 }
 
 @media (min-width: 1024px) {
   main > div {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     gap: 3rem;
   }
+
   section[aria-label="Senaste artiklar"] {
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
   }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  header form {
+    order: 3;
+    margin-top: 0.5rem;
+  }
+
+  header nav[aria-label="Huvudnavigation"],
+  header nav[aria-label="Kategorier"] {
+    margin: 0.25rem 0;
+  }
+
+  header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1.5rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+section[aria-label="Senaste artiklar"] article,
+section[aria-label="Huvudartikel"] {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+a:hover {
+  text-decoration: underline;
 }

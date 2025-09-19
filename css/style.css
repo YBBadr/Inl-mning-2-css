@@ -198,7 +198,7 @@ section[aria-label=Huvudartikel] {
   margin-bottom: 2.5rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
   section[aria-label="Senaste artiklar"] {
     grid-template-columns: 1fr 1fr;
   }

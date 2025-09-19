@@ -28,10 +28,9 @@ Verkligt:
 - [ ] Lägga till sidopanel i mobilversion 1 sp
 - [ ] Testa med större skärm - artiklarna i två kolumner 2 sp
 - [ ] Testa ännu större skärm - 3 artiklar på rad + sidopanel bredvid 2 sp
-- [ ] Göra footern så att den blir 1 kolumn i mobil och 2–3 delar i dator 1.5 sp
-- [ ] Validera min Sass och html 1 sp
+- [ ] Validera min Sass och html 0.5 sp
 - [ ] Sammanfatta uppgifter i README.md och skriva hur jag använt mig utav AI 0.5 sp
-- [ ] Lägga till färger och lite extra detaljer om jag hinner 1 sp
+- [ ] Lägga till färger och lite extra detaljer om jag hinner 0.5 sp
 - [ ] Forma inlämningen så jag når VG, dvs skriva i Sass och bifoga en tillgänglighetsrapport 2 sp
 
 Sammanfattning:
@@ -51,8 +50,8 @@ Har?:
 - Responsivitet: Ja – testen gjord i DevTools (mobil, tablet, desktop).
 - Tillgänglighet: fokus-stilar, alt-texter, reduced-motion.
 
-- Testad med **Chrome Lighthouse** + **WAVE**.
-- **Fynd & åtgärd**:
+- Testad med WAVE.
+- Fynd & åtgärd:
   - Kontrast OK (svart på vit bakgrund).
   - Alt-texter kompletterade på alla bilder.
   - Synligt fokus på länkar/knappar/inputs.

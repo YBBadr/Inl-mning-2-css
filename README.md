@@ -36,3 +36,24 @@ Verkligt:
 
 Sammanfattning:
 Denna uppgift var väldigt svår, hade många problem som dök upp under tiden som jag skrev. Vissa saker gick att fixa med hjölp utav youtube och AI men andra gick inte alls att fixa, möjligvis för att jag inte har så mycket erfarenhet och allting är nytt för mig men har lärt mig att jag lär mig mer och mer och börja förstå hur funktioner funkar och så vidare. I denna uppgift har AI varit ett väldigt bra hjälpmedel för att få mig förstå varför saker blir som de blir. De som inte gick att fixa för mig var att lägga till så att menyraden la sig under "loggan" och att sökmotorn skulle läggas på vänster sida.
+
+Responsiv nyhetssida byggd med HTML + SCSS. Grid används för artikellistan, flex i headern. Fokus på enkel, tillgänglig layout som skalar från mobil till desktop. CHECK
+
+- Hero-bild (huvudartikel): egen layout utan fast höjd – visar hela bilden, begränsad max-bredd på desktop.
+
+- Brytpunkter: 600px, 700px och 1024px.
+
+Har?:
+
+- SCSS: Ja (kompileras till `css/style.css`).
+- Grid: Ja (artikellistan).
+- Flex: Ja (headerns navigering).
+- Responsivitet: Ja – testen gjord i DevTools (mobil, tablet, desktop).
+- Tillgänglighet: fokus-stilar, alt-texter, reduced-motion.
+
+- Testad med **Chrome Lighthouse** + **WAVE**.
+- **Fynd & åtgärd**:
+  - Kontrast OK (svart på vit bakgrund).
+  - Alt-texter kompletterade på alla bilder.
+  - Synligt fokus på länkar/knappar/inputs.
+  - `prefers-reduced-motion` hanteras.

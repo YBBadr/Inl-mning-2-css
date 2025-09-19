@@ -34,7 +34,7 @@ Verkligt:
 - [ ] Forma inlämningen så jag når VG, dvs skriva i Sass och bifoga en tillgänglighetsrapport 2 sp
 
 Sammanfattning:
-Denna uppgift var väldigt svår, hade många problem som dök upp under tiden som jag skrev. Vissa saker gick att fixa med hjölp utav youtube och AI men andra gick inte alls att fixa, möjligvis för att jag inte har så mycket erfarenhet och allting är nytt för mig men har lärt mig att jag lär mig mer och mer och börja förstå hur funktioner funkar och så vidare. I denna uppgift har AI varit ett väldigt bra hjälpmedel för att få mig förstå varför saker blir som de blir. De som inte gick att fixa för mig var att lägga till så att menyraden la sig under "loggan" och att sökmotorn skulle läggas på vänster sida.
+Denna uppgift var väldigt svår, hade många problem som dök upp under tiden som jag skrev. Vissa saker gick att fixa med hjölp utav youtube och AI men andra gick inte alls att fixa, möjligvis för att jag inte har så mycket erfarenhet och allting är nytt för mig men har lärt mig att jag lär mig mer och mer och börja förstå hur funktioner funkar och så vidare. I denna uppgift har AI varit ett väldigt bra hjälpmedel för att få mig förstå varför saker blir som de blir. De som inte gick att fixa för mig var att lägga till så att menyraden la sig under "loggan" och att sökmotorn skulle läggas på vänster sida. Tog tid att fixa live server och validera mitt repo. Efter att jag nu är klar och ska lämna in den känner jag att jag måste lägga in en extra växel för att lära mig och förstå alla programmerings språk som vi kommer att ha framöver.
 
 Responsiv nyhetssida byggd med HTML + SCSS. Grid används för artikellistan, flex i headern. Fokus på enkel, tillgänglig layout som skalar från mobil till desktop. CHECK
 
